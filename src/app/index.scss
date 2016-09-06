@@ -5,6 +5,9 @@
 $navbar-inverse-link-color: #5AADBB;
 $icon-font-path: "../../bootstrap-sass/assets/fonts/bootstrap/";
 
+$fa-font-path: "/bower_components/font-awesome/fonts/";
+@import "../../bower_components/font-awesome/scss/font-awesome";
+
 /**
  *  Do not remove the comments below. It's the markers used by wiredep to inject
  *  sass dependencies when defined in the bower.json of your dependencies
@@ -26,6 +29,15 @@ $icon-font-path: "../../bootstrap-sass/assets/fonts/bootstrap/";
     width: 50px;
   }
 }
+
+/*
+  Here the original CSS files for the Kreo theme are imported
+  These have been renamed to .scss
+*/
+@import 'base.scss';
+@import 'vendor.min.css';
+@import 'fonts.scss';
+@import 'main.scss';
 
 /**
  *  Do not remove the comments below. It's the markers used by gulp-inject to inject
