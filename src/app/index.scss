@@ -41,6 +41,12 @@ $fa-font-path: "/bower_components/font-awesome/fonts/";
 @import 'fonts.scss';
 @import 'main.scss';
 
+.flexslider {
+  border: none !important;
+  background: transparent !important;
+}
+
+
 /**
  *  Do not remove the comments below. It's the markers used by gulp-inject to inject
  *  all your sass files automatically
