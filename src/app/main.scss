@@ -666,8 +666,9 @@ header .logo a {
 	color: transparent;
 	width: 114px;
 	height: 66px;
-	background: url("../assets/images/logoK@2x.png") no-repeat center;
-	background-size: 61px 14px;
+	background: url("../assets/images/logoK.png") no-repeat center;
+	// background-size: 61px 14px;
+	background-size: 145px;
 }
 
 /* header social */
@@ -2473,8 +2474,9 @@ footer .info {
 footer .footer-logo {
 	width: 100px;
 	height: 23px;
-	background: url("../assets/images/logoW@2x.png") no-repeat center;
-	background-size: 100px 23px;
+	background: url("../assets/images/logoW.png") no-repeat center;
+	// background-size: 100px 23px;
+	background-size: 145px;
 	margin: 0 auto 21px;
 	display: block;
 	filter: alpha(opacity=10);
