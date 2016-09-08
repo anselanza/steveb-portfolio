@@ -17,5 +17,39 @@
        container.scrollTo(section2, 0, 1000);
      }
 
+     $scope.workItems = [
+       {
+         "title": "BMW Tunnel",
+         "subtitle": "Installation",
+         "img": "assets/images/portfolio/underwater.jpg"
+       },
+       {
+         "title": "SAB Kickstart Wall",
+         "subtitle": "Installation",
+         "img": "assets/images/portfolio/underwater.jpg"
+       },
+       {
+         "title": "BMW Tunnel",
+         "subtitle": "Installation",
+         "img": "assets/images/portfolio/underwater.jpg"
+       },
+       {
+         "title": "SAB Kickstart Wall",
+         "subtitle": "Installation",
+         "img": "assets/images/portfolio/underwater.jpg"
+       },
+       {
+         "title": "BMW Tunnel",
+         "subtitle": "Installation",
+         "img": "assets/images/portfolio/underwater.jpg"
+       },
+       {
+         "title": "SAB Kickstart Wall",
+         "subtitle": "Installation",
+         "img": "assets/images/portfolio/underwater.jpg"
+       }
+     ];
+
+
   }
 })();
