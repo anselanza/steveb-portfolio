@@ -6,7 +6,7 @@
     .controller('MainController', MainController);
 
   /** @ngInject */
-  function MainController($scope) {
+  function MainController($scope, $http, $log) {
 
     var container = angular.element(document.getElementById('container'));
      var section2 = angular.element(document.getElementById('section-2'));
@@ -17,39 +17,10 @@
        container.scrollTo(section2, 0, 1000);
      }
 
-     $scope.workItems = [
-       {
-         "title": "BMW Tunnel",
-         "subtitle": "Installation",
-         "img": "assets/images/portfolio/underwater.jpg"
-       },
-       {
-         "title": "SAB Kickstart Wall",
-         "subtitle": "Installation",
-         "img": "assets/images/portfolio/underwater.jpg"
-       },
-       {
-         "title": "BMW Tunnel",
-         "subtitle": "Installation",
-         "img": "assets/images/portfolio/underwater.jpg"
-       },
-       {
-         "title": "SAB Kickstart Wall",
-         "subtitle": "Installation",
-         "img": "assets/images/portfolio/underwater.jpg"
-       },
-       {
-         "title": "BMW Tunnel",
-         "subtitle": "Installation",
-         "img": "assets/images/portfolio/underwater.jpg"
-       },
-       {
-         "title": "SAB Kickstart Wall",
-         "subtitle": "Installation",
-         "img": "assets/images/portfolio/underwater.jpg"
-       }
-     ];
-
+     $http.get("app/data/work.json").then(function(json) {
+       $log.debug(json);
+       $scope.workItems = json.data;
+     });
 
   }
 })();
