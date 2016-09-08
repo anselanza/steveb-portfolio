@@ -46,7 +46,17 @@ $fa-font-path: "/bower_components/font-awesome/fonts/";
   background: transparent !important;
 }
 
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index:-10;
+  opacity: 0.15;
+}
 
+section.seethrough {
+  background: transparent !important;
+}
 /**
  *  Do not remove the comments below. It's the markers used by gulp-inject to inject
  *  all your sass files automatically
