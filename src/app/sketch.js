@@ -286,9 +286,9 @@ Circuit.prototype.draw = function(){
     grid[c.x][c.y] = 'used';
     c.age+= 10;
     if (c.age > 255) { c.age = 255 }
-    stroke(100,100,255, c.age / 3);
+    stroke(c.age / 3);
     if (pleaseGlow && c.age == 255) {
-      stroke(100,100,255,255);
+      stroke(c.age);
     }
 
     if (c.type == 'line' || c.type == 'endhole') {
@@ -302,7 +302,7 @@ Circuit.prototype.draw = function(){
     if (c.type == 'starthole' || c.type == 'endhole') {
       noFill();
       if (pleaseGlow && c.age == 255) {
-        fill(100,100,255,255);
+        fill(255);
       }
       // fill(255);
       ellipse(gridToPixels(c.x), gridToPixels(c.y), HOLE_RADIUS, HOLE_RADIUS);
