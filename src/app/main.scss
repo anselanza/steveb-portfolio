@@ -787,11 +787,11 @@ ul#nav li a:active {
 	background-color: transparent !important;
 }
 
-ul#nav li.current a {
+ul#nav li a.active {
 	color: #fdc501;
 }
 
-ul#nav li.current a:after {
+ul#nav li a.active:after {
 	position: absolute;
 	left: 50%;
 	bottom: 0;
