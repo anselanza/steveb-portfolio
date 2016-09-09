@@ -31,7 +31,7 @@ var circuits = [];
 function setup() {
   var SIZE = windowWidth;
   var MAX_CIRCUITS = SIZE * 5 / GRID_PIXELS;
-  frameRate(25);
+  frameRate(15);
   createCanvas(SIZE, SIZE);
 
   gridWidth = Math.floor(width / GRID_PIXELS);

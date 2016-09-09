@@ -1,18 +1,23 @@
-<div class="popup-modal">
+<div class="popup-modal" ng-show="modalShow">
 
- <div class="media">
-   <img src="assets/images/portfolio/modals/m-underwater.jpg" alt="Underwater" />
- </div>
+<!-- <div ng-transclude></div> -->
+  <div class="absolute-centred">
 
- <div class="description-box">
-   <h4>Underwater</h4>
-   <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-      <span class="categories">Videography</span>
- </div>
-
-   <div class="link-box group">
-     <a href="http://www.behance.net">Details</a>
-     <a href="#" class="popup-modal-dismiss">Close</a>
+   <div class="media">
+     <img src="assets/images/portfolio/modals/m-underwater.jpg" alt="Underwater" />
    </div>
+
+   <div class="description-box">
+     <h4>{{item.title}}</h4>
+     <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+        <span class="categories">{{item.subtitle}}</span>
+   </div>
+
+     <div class="link-box group">
+       <a href="http://www.behance.net">Details</a>
+       <a href="#" class="popup-modal-dismiss">Close</a>
+     </div>
+
+  </div>
 
 </div>

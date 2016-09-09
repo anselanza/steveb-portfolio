@@ -1491,8 +1491,15 @@ ul#nav li a.active:after {
 .popup-modal {
 	max-width: 550px;
 	background: #FFFFFF;
-	position: relative;
-	margin: 0 auto;
+	// position: relative;
+	// margin: 0 auto;
+	position:absolute;
+	left: 50%;
+	z-index: 2;
+	.absolute-centred {
+		position: relative;
+		left: -50%;
+	}
 }
 
 .popup-modal .media {
