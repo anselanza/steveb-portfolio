@@ -22,11 +22,8 @@
        $scope.workItems = json.data;
      });
 
-     $scope.activeModal = -1; // no modal to show
-
-     $scope.showModal = function(index) {
-       $log.debug('open modal:', index);
-       $scope.activeModal = index;
+     $scope.showModal = function(item) {
+       $log.debug('open modal:', item);
      }
 
   }
