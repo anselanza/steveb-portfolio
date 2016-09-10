@@ -19,7 +19,6 @@
     "angular": "~1.5.3",
     "font-awesome": "fontawesome#^4.6.3",
     "waypoints": "^4.0.1",
-    "magnific-popup": "^1.1.0",
     "jquery-placeholder": "^2.3.1",
     "FitText.js": "jquery-fittext#^1.2.0",
     "jquery-validation": "^1.15.1",

@@ -66,13 +66,11 @@
        <div id="portfolio-wrapper" class="bgrid-fourth s-bgrid-third tab-bgrid-half">
 
 
-         <div ng-repeat="item in workItems" ng-include="'app/components/work-item.html'" class="bgrid folio-item">
+         <div ng-repeat="item in workItems" ng-include="'app/components/work-item.html'" class="bgrid folio-item" ng-click="open(item)">
          </div>
 
        </div> <!-- end portfolio-wrapper -->
 
-       <!-- modal popups-->
-       <div ng-include="'app/components/modal-popup.html'" magnific-popup=""></div>
 
     </div>  <!-- end row -->
 

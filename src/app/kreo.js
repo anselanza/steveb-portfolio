@@ -202,10 +202,10 @@
 		//
     // });
 
-    $(document).on('click', '.popup-modal-dismiss', function (e) {
-    		e.preventDefault();
-    		$.magnificPopup.close();
-    });
+    // $(document).on('click', '.popup-modal-dismiss', function (e) {
+    // 		e.preventDefault();
+    // 		$.magnificPopup.close();
+    // });
 
 
    /*----------------------------------------------------*/
