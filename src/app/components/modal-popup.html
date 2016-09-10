@@ -1,13 +1,27 @@
 <div class="popup-modal">
 
+
+  {{$ctrl.item.slides}}
+
+  <div uib-carousel>
+
+   <div uib-slide ng-repeat="slide in $ctrl.item.slides track by slide.id" index="slide.id">
+     <img ng-src="{{$ctrl.item.img}}" />
+   </div>
+
+  </div>
+
+
+
    <div class="media">
-     <img src="assets/images/portfolio/modals/m-underwater.jpg" alt="Underwater" />
+     <!-- <img ng-src="{{$ctrl.item.img}}" alt="{{$ctrl.item.title}}" /> -->
+
    </div>
 
    <div class="description-box">
-     <h4>Underwater</h4>
-     <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-        <span class="categories">Videography</span>
+     <h4>{{$ctrl.item.title}}</h4>
+     <p>{{$ctrl.item.description}}</p>
+     <span class="categories">{{$ctrl.item.subtitle}}</span>
    </div>
 
      <div class="link-box group">

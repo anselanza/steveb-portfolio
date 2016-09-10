@@ -2,31 +2,42 @@
   {
     "title": "BMW Tunnel",
     "subtitle": "Installation",
-    "img": "assets/images/portfolio/underwater.jpg"
+    "img": "assets/images/work/bmw-tunnel-view.jpg",
+    "description": "An audiovisual installation that recreated the visceral experience of walking down a tunnel alive with the sounds of anticipation, and then running into a packed stadium that explodes with a panorama of passionate supporters. Combined MAX/MSP for audio, Arduino for real camera flashes and openFrameworks for live animation.",
+    "slides": [
+      {
+        "id": 0,
+        "img": "assets/images/work/bmw-tunnel-view.jpg"
+      },
+      {
+        "id": 1,
+        "img": "assets/images/work/bmw-tunnel-view2.jpg"
+      }
+    ]
   },
   {
     "title": "SAB Kickstart Wall",
     "subtitle": "Installation",
-    "img": "assets/images/portfolio/underwater.jpg"
+    "img": "assets/images/work/bmw-tunnel-view.jpg"
   },
   {
     "title": "BMW Tunnel",
     "subtitle": "Installation",
-    "img": "assets/images/portfolio/underwater.jpg"
+    "img": "assets/images/work/bmw-tunnel-view.jpg"
   },
   {
     "title": "SAB Kickstart Wall",
     "subtitle": "Installation",
-    "img": "assets/images/portfolio/underwater.jpg"
+    "img": "assets/images/work/bmw-tunnel-view.jpg"
   },
   {
     "title": "BMW Tunnel",
     "subtitle": "Installation",
-    "img": "assets/images/portfolio/underwater.jpg"
+    "img": "assets/images/work/bmw-tunnel-view.jpg"
   },
   {
     "title": "SAB Kickstart Wall",
     "subtitle": "Installation",
-    "img": "assets/images/portfolio/underwater.jpg"
+    "img": "assets/images/work/bmw-tunnel-view.jpg"
   }
 ]

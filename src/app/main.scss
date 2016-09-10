@@ -1489,19 +1489,19 @@ ul#nav li a.active:after {
 /* Popup Modal
 /* ------------------------------------------------------------------ */
 .popup-modal {
-	max-width: 550px;
+	max-width: 900px;
 	background: #FFFFFF;
 	position: relative;
 	margin: 0 auto;
 }
 
-.popup-modal .media {
-	position: relative;
-}
+// .popup-modal .media {
+// 	position: relative;
+// }
 
-.popup-modal img {
-	vertical-align: bottom;
-}
+// .popup-modal img {
+// 	vertical-align: bottom;
+// }
 
 /* description */
 .popup-modal .description-box {
@@ -1573,81 +1573,6 @@ ul#nav li a.active:after {
 
 }
 
-/* transition effect for modal popup
-/* ------------------------------------------------------------------ */
-
-/* overlay at start */
-.mfp-fade.mfp-bg {
-	filter: alpha(opacity=0);
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-	opacity: 0;
-	zoom: 1;
-	-moz-transition: all 0.3s ease-in-out;
-	-o-transition: all 0.3s ease-in-out;
-	-webkit-transition: all 0.3s ease-in-out;
-	-ms-transition: all 0.3s ease-in-out;
-	transition: all 0.3s ease-in-out;
-}
-
-/* overlay animate in */
-.mfp-fade.mfp-bg.mfp-ready {
-	filter: alpha(opacity=80);
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
-	opacity: 0.8;
-	zoom: 1;
-}
-
-/* overlay animate out */
-.mfp-fade.mfp-bg.mfp-removing {
-	filter: alpha(opacity=0);
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-	opacity: 0;
-	zoom: 1;
-}
-
-/* content at start */
-.mfp-fade.mfp-wrap .mfp-content {
-	filter: alpha(opacity=0);
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-	opacity: 0;
-	zoom: 1;
-	-moz-transform: translateY(-100%);
-	-o-transform: translateY(-100%);
-	-webkit-transform: translateY(-100%);
-	-ms-transform: translateY(-100%);
-	transform: translateY(-100%);
-	-moz-transition: all 0.3s ease-in-out;
-	-o-transition: all 0.3s ease-in-out;
-	-webkit-transition: all 0.3s ease-in-out;
-	-ms-transition: all 0.3s ease-in-out;
-	transition: all 0.3s ease-in-out;
-}
-
-/* content animate in */
-.mfp-fade.mfp-wrap.mfp-ready .mfp-content {
-	filter: alpha(opacity=100);
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-	opacity: 1;
-	zoom: 1;
-	-moz-transform: translateY(0);
-	-o-transform: translateY(0);
-	-webkit-transform: translateY(0);
-	-ms-transform: translateY(0);
-	transform: translateY(0);
-}
-
-/* content animate out */
-.mfp-fade.mfp-wrap.mfp-removing .mfp-content {
-	filter: alpha(opacity=0);
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-	opacity: 0;
-	zoom: 1;
-	-moz-transform: translateY(-100%);
-	-o-transform: translateY(-100%);
-	-webkit-transform: translateY(-100%);
-	-ms-transform: translateY(-100%);
-	transform: translateY(-100%);
-}
 
 /*
 /* 09. =services

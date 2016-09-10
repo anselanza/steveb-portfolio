@@ -5,7 +5,8 @@
 // $navbar-inverse-link-color: #5AADBB;
 $nav-link-hover-bg:                         transparent !default;
 
-$icon-font-path: "../../bootstrap-sass/assets/fonts/bootstrap/";
+// $icon-font-path: "../../bootstrap-sass/assets/fonts/bootstrap/";
+$icon-font-path: "/bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 
 $fa-font-path: "/bower_components/font-awesome/fonts/";
 @import "../../bower_components/font-awesome/scss/font-awesome";

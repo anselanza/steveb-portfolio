@@ -1,6 +1,8 @@
 angular.module('kreoGulp').controller('ModalInstanceCtrl', function ($uibModalInstance, item) {
   var $ctrl = this;
-  $ctrl.items = item;
+  $ctrl.item = item;
+
+  console.log('item for this modal:', $ctrl.item);
 
   $ctrl.ok = function () {
     $uibModalInstance.close();
@@ -9,4 +11,5 @@ angular.module('kreoGulp').controller('ModalInstanceCtrl', function ($uibModalIn
   $ctrl.cancel = function () {
     $uibModalInstance.dismiss('cancel');
   };
+
 });
