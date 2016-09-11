@@ -28,11 +28,32 @@
     ],
     "detailsLink": "https://www.mannmademedia.com/portfolio/bmw-springbok-sponsorship-launch/"
   },
+
   {
     "title": "SAB Kickstart Wall",
     "subtitle": "Installation",
-    "img": "assets/images/work/bmw-tunnel-view.jpg"
+    "img": "assets/images/work/wonderwall1.jpg",
+    "description":"A giant spanned projection wall with animation and video triggered by hidden floor sensors.",
+    "slides": [
+      {
+        "id": 0,
+        "vimeo": {
+          "videoid":"44797416",
+          "userid": "shaynemann"
+        }
+      },
+      {
+        "id": 1,
+        "img": "assets/images/work/wonderwall2.jpg"
+      },
+      {
+        "id": 2,
+        "img": "assets/images/work/wonderwall1.jpg"
+      }
+    ],
+    "detailsLink": "https://www.mannmademedia.com/sab-kickstart-wonderwall/"
   },
+
   {
     "title": "BMW Tunnel",
     "subtitle": "Installation",
