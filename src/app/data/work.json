@@ -1,7 +1,7 @@
 [
   {
     "title": "BMW Tunnel",
-    "subtitle": "Installation",
+    "subtitle": "Event Installation",
     "img": "assets/images/work/bmw-tunnel-view.jpg",
     "description": "An audiovisual installation that recreated the visceral experience of walking down a tunnel alive with the sounds of anticipation, and then running into a packed stadium that explodes with a panorama of passionate supporters. Combined MAX/MSP for audio, Arduino for real camera flashes and openFrameworks for live animation.",
     "slides": [
@@ -31,7 +31,7 @@
 
   {
     "title": "Pandora",
-    "subtitle": "Installation",
+    "subtitle": "Event Installation",
     "img": "assets/images/work/pandora-hero.jpg",
     "description": "We created bespoke interactive animation scenes for the launch of the Pandora jewellery ranges. Kinect sensor for motion tracking and Processing for generative graphics.",
     "slides": [
@@ -48,7 +48,7 @@
 
   {
     "title": "SAB Kickstart Wall",
-    "subtitle": "Installation",
+    "subtitle": "Event Installation",
     "img": "assets/images/work/wonderwall1.jpg",
     "description":"A giant spanned projection wall with animation and video triggered by hidden floor sensors.",
     "slides": [
@@ -97,13 +97,31 @@
   },
 
   {
-    "title": "BMW Tunnel",
-    "subtitle": "Installation",
-    "img": "assets/images/work/bmw-tunnel-view.jpg"
-  },
-  {
-    "title": "SAB Kickstart Wall",
-    "subtitle": "Installation",
-    "img": "assets/images/work/bmw-tunnel-view.jpg"
+    "title": "Flora Give with Your Heart",
+    "subtitle": "Expo Installation",
+    "img": "assets/images/work/flora-participation.jpg",
+    "description": "Winner of the stand of the year for the Comrades Marathon exhibition, we provided technology for the 'Give with your heart' theme. Participants could 'donate heartbeats' by running, cyling or playing Kinect games - heart-rate monitors were connected to custom visualisations and a database to count the heartbeats collected.",
+    "slides": [
+      {
+        "id": 0,
+        "img": "assets/images/work/flora-counter.jpg"
+      },
+      {
+        "id": 1,
+        "img": "assets/images/work/flora-participation.jpg"
+      },
+      {
+        "id": 2,
+        "img": "assets/images/work/flora-queues.jpg"
+      },
+      {
+        "id": 3,
+        "img": "assets/images/work/flora-setup.jpg"
+      },
+      {
+        "id": 4,
+        "img": "assets/images/work/flora-monitor.jpg"
+      }
+    ]
   }
 ]
