@@ -71,12 +71,31 @@
     "detailsLink": "https://www.mannmademedia.com/sab-kickstart-wonderwall/"
   },
 
-
   {
-    "title": "SAB Kickstart Wall",
-    "subtitle": "Installation",
-    "img": "assets/images/work/bmw-tunnel-view.jpg"
+    "title": "Virtual Dealership",
+    "subtitle": "Permanent Installation",
+    "img": "assets/images/work/virtual-dealership-wonderboom.jpg",
+    "description":"A bespoke Virtual Dealership experience created for Bidvest Automotive - featuring Augmented Reality, multi-screen sychronisation, 3D graphics and gesture-controlled interfaces to take dealerships into the future.",
+    "slides": [
+      {
+        "id": 0,
+        "vimeo": {
+          "videoid":"122406870",
+          "userid": "stephendbuchanan"
+        }
+      },
+      {
+        "id": 1,
+        "img": "assets/images/work/virtual-dealership-wonderboom.jpg"
+      },
+      {
+        "id": 2,
+        "img": "assets/images/work/virtual-dealership-handover.jpg"
+      }
+    ],
+    "detailsLink": "https://www.mannmademedia.com/mccarthy-interactive-centre/"
   },
+
   {
     "title": "BMW Tunnel",
     "subtitle": "Installation",
