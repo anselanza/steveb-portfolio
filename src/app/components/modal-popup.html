@@ -1,10 +1,20 @@
 <div class="popup-modal">
 
 
-  <div uib-carousel>
+  <div uib-carousel active="$ctrl.active">
 
    <div uib-slide ng-repeat="slide in $ctrl.item.slides track by slide.id" index="slide.id">
-     <img ng-src="{{$ctrl.item.img}}" />
+     {{slide}}
+     <!-- image type slide-->
+     <img ng-src="{{slide.img}}" ng-if="slide.img"/>
+
+     <!-- vimeo type slide-->
+     <!-- <iframe ng-if="slide.vimeo"  ng-src="{{$ctrl.trustSrc('https://player.vimeo.com/video/'+slide.viemo+'?autoplay=1&title=0&byline=0&portrait=0')}}" width="600" height="338" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+     <p><a ng-href="https://vimeo.com/{{slide.viemo}}">BMW Tunnel Installation</a> on <a href="https://vimeo.com">Vimeo</a>.</p> -->
+
+     <iframe ng-if="slide.vimeo" ng-src="{{$ctrl.trustSrc('https://player.vimeo.com/video/'+slide.vimeo.videoid+'?autoplay=1&title=0&byline=0&portrait=0')}}" width="600" height="338" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+     <p><a href="https://vimeo.com/25022786">BMW Tunnel Installation</a> from <a href="https://vimeo.com/user5936605">Mann Made Media</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
    </div>
 
   </div>

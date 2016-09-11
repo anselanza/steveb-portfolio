@@ -1,4 +1,4 @@
-angular.module('kreoGulp').controller('ModalInstanceCtrl', function ($uibModalInstance, item) {
+angular.module('kreoGulp').controller('ModalInstanceCtrl', function ($uibModalInstance, item, $sce) {
   var $ctrl = this;
   $ctrl.item = item;
 
@@ -11,5 +11,10 @@ angular.module('kreoGulp').controller('ModalInstanceCtrl', function ($uibModalIn
   $ctrl.cancel = function () {
     $uibModalInstance.dismiss('cancel');
   };
+
+  $ctrl.trustSrc = function(src) {
+    return $sce.trustAsResourceUrl(src);
+  }
+
 
 });

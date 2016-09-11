@@ -7,12 +7,20 @@
     "slides": [
       {
         "id": 0,
-        "img": "assets/images/work/bmw-tunnel-view.jpg"
+        "vimeo": {
+          "videoid": "25022786",
+          "userid": "user5936605"
+        }
       },
       {
         "id": 1,
+        "img": "assets/images/work/bmw-tunnel-view.jpg"
+      },
+      {
+        "id": 2,
         "img": "assets/images/work/bmw-tunnel-view2.jpg"
       }
+
     ]
   },
   {
