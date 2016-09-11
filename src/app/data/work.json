@@ -18,10 +18,15 @@
       },
       {
         "id": 2,
-        "img": "assets/images/work/bmw-tunnel-view2.jpg"
+        "img": "assets/images/work/bmw-1.jpg"
+      },
+      {
+        "id": 3,
+        "img": "assets/images/work/bmw-3.jpg"
       }
 
-    ]
+    ],
+    "detailsLink": "https://www.mannmademedia.com/portfolio/bmw-springbok-sponsorship-launch/"
   },
   {
     "title": "SAB Kickstart Wall",

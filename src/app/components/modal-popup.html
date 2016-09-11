@@ -33,7 +33,7 @@
    </div>
 
      <div class="link-box group">
-       <a href="#">Details</a>
+       <a ng-href="{{$ctrl.item.detailsLink}}" ng-show="$ctrl.item.detailsLink" target="_blank">Details</a>
        <a class="popup-modal-dismiss" ng-click="$ctrl.cancel()">Close</a>
      </div>
 
