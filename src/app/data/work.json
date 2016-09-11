@@ -30,6 +30,23 @@
   },
 
   {
+    "title": "Pandora",
+    "subtitle": "Installation",
+    "img": "assets/images/work/pandora-hero.jpg",
+    "description": "We created bespoke interactive animation scenes for the launch of the Pandora jewellery ranges. Kinect sensor for motion tracking and Processing for generative graphics.",
+    "slides": [
+      {
+        "id": 0,
+        "img": "assets/images/work/pandora-wide.jpg"
+      },
+      {
+        "id": 1,
+        "img": "assets/images/work/pandora-hero.jpg"
+      }
+    ]
+  },
+
+  {
     "title": "SAB Kickstart Wall",
     "subtitle": "Installation",
     "img": "assets/images/work/wonderwall1.jpg",
@@ -54,11 +71,7 @@
     "detailsLink": "https://www.mannmademedia.com/sab-kickstart-wonderwall/"
   },
 
-  {
-    "title": "BMW Tunnel",
-    "subtitle": "Installation",
-    "img": "assets/images/work/bmw-tunnel-view.jpg"
-  },
+
   {
     "title": "SAB Kickstart Wall",
     "subtitle": "Installation",
