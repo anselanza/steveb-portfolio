@@ -164,9 +164,48 @@
         "img": "assets/images/work/pixels-venue.jpg"
       }
     ],
-    "detailsLink": "http://fakugesi.co.za/event/future-sounds-workshop-constitute/"
-  }
+    "detailsLink": "http://singularityu.org/customs/"
+  },
 
+  {
+    "title": "Blueville",
+    "subtitle": "Corporate Staff Mobile Game",
+    "img": "assets/images/work/blueville-room.png",
+    "description": "A local bank needed to communicate some key messages about customer service to its employees. Instead of an email campaign, we turned the whole thing into a mobile campaign. Amazingly, we got it to work for 3 platforms: Android, iOS and Blackberry OS 7 (which was very popular at the time).",
+    "slides": [
+      {
+        "id": 0,
+        "vimeo": {
+          "videoid":"182690392",
+          "userid": "stephendbuchanan"
+          }
+      },
+      {
+        "id": 2,
+        "img": "assets/images/work/blueville-room.png"
+      }
+    ]
+  },
+
+  {
+    "title": "The Fast and the Freshest",
+    "subtitle": "Mobile Game / Consumer Activation",
+    "img": "assets/images/work/fast-and-freshest-logo.jpg",
+    "description": "Created for a consumer activation for SAB Miller, this simple mobile game allowed users to compete in a national leaderboard. We brought the brand's primary selling point - the freshness of the beer - to life through the challenge of driving a beer delivery truck to an outlet before the 'freshness' ran out.",
+    "slides": [
+      {
+        "id": 0,
+        "vimeo": {
+          "videoid":"182535532",
+          "userid": "stephendbuchanan"
+          }
+      },
+      {
+        "id": 2,
+        "img": "assets/images/work/pixels-venue.jpg"
+      }
+    ]
+  }
 
 
 ]
