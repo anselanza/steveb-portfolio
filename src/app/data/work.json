@@ -223,6 +223,61 @@
       }
     ],
     "detailsLink": "http://www.beefeasy.com"
+  },
+
+  {
+    "title": "Harnessing the Hackers",
+    "subtitle": "Conference Workshop",
+    "img": "assets/images/work/ha-talk-2.jpg",
+    "description": "I presented a very well-attended workshop in the main auditorium for the Hello Ambassador 2016 Creative Festival, a conference for South African creatives and entrepreneurs. The audience loved getting involved - playing music with a Makey Makey and turning a Thesaurus API into live digital art.",
+    "slides": [
+      {
+        "id": 0,
+        "img": "assets/images/work/ha2016-hackers.001.jpeg"
+      },
+      {
+        "id": 1,
+        "img": "assets/images/work/ha-talk-1.jpg"
+      },
+      {
+        "id": 2,
+        "img": "assets/images/work/ha-twitter-1.jpg"
+      },
+      {
+        "id": 3,
+        "img": "assets/images/work/ha-twitter-2.jpg"
+      },
+      {
+        "id": 4,
+        "img": "assets/images/work/ha-talk-2.jpg"
+      }
+    ],
+    "detailsLink": "http://www.helloambassador.co.za/stephen-buchanan"
+  },
+
+  {
+    "title": "Magnesium Eventing Technology",
+    "subtitle": "Product Development",
+    "img": "assets/images/work/magnesium-website-1.jpg",
+    "description": "I co-founded an offshoot of our Interactive Design department - a brand called Magnesium which specialises in technology products for the Eventing industry. Our flagship product is a cloud-based Event App which greatly simplifies event management, networking and communications.",
+    "slides": [
+      {
+        "id": 0,
+        "img": "assets/images/work/magnesium-website-1.jpg"
+      },
+      {
+        "id": 1,
+        "img": "assets/images/work/magnesium-website-2.jpg"
+      },
+      {
+        "id": 2,
+        "img": "assets/images/work/magevent-phone.jpg"
+      },
+      {
+        "id": 3,
+        "img": "assets/images/work/magevent-ru-su.jpg"
+      }
+    ]
   }
 
 
