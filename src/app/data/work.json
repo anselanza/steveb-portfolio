@@ -126,7 +126,7 @@
   },
 
   {
-    "title": "Street Choir @ FutureSounds",
+    "title": "Street Choir @FutureSounds",
     "subtitle": "Hackathon Installation",
     "img": "assets/images/work/future-sounds-hero.jpg",
     "description": "An installation created for the FutureSounds workshop facilitated by The Constitute (based in Berlin). Arduino-connected sensors turned the mic on when someone approached, and a Leap Motion allowed the effects on the voice loop to be controlled using hand-tracking.",
@@ -141,6 +141,27 @@
       {
         "id": 1,
         "img": "assets/images/work/future-sounds-hero.jpg"
+      }
+    ],
+    "detailsLink": "http://fakugesi.co.za/event/future-sounds-workshop-constitute/"
+  },
+
+  {
+    "title": "Pixels of Purpose",
+    "subtitle": "Event Installation",
+    "img": "assets/images/work/pixels-venue.jpg",
+    "description": "For a Singularity University 'custom programme' event, we created a suitably high-tech arrival/registration experience. A Kinect depth camera image created a realtime stylised silhouette on screen, and AR tag recognition was used to match the delegate's details to load profile information.",
+    "slides": [
+      {
+        "id": 0,
+        "vimeo": {
+          "videoid":"125897074",
+          "userid": "stephendbuchanan"
+          }
+      },
+      {
+        "id": 1,
+        "img": "assets/images/work/pixels-venue.jpg"
       }
     ],
     "detailsLink": "http://fakugesi.co.za/event/future-sounds-workshop-constitute/"
