@@ -136,7 +136,7 @@
         "vimeo": {
           "videoid":"182683521",
           "userid": "stephendbuchanan"
-          }
+        }
       },
       {
         "id": 1,
@@ -157,7 +157,7 @@
         "vimeo": {
           "videoid":"125897074",
           "userid": "stephendbuchanan"
-          }
+        }
       },
       {
         "id": 1,
@@ -178,7 +178,7 @@
         "vimeo": {
           "videoid":"182690392",
           "userid": "stephendbuchanan"
-          }
+        }
       },
       {
         "id": 2,
@@ -188,24 +188,45 @@
   },
 
   {
-    "title": "The Fast and the Freshest",
-    "subtitle": "Mobile Game / Consumer Activation",
-    "img": "assets/images/work/fast-and-freshest-logo.jpg",
-    "description": "Created for a consumer activation for SAB Miller, this simple mobile game allowed users to compete in a national leaderboard. We brought the brand's primary selling point - the freshness of the beer - to life through the challenge of driving a beer delivery truck to an outlet before the 'freshness' ran out.",
+    "title": "BMW Induction App",
+    "subtitle": "App + Multiplayer Game",
+    "img": "assets/images/work/start-drive.png",
+    "description": "We turned BMW South Africa's staff induction process into a gamified mobile app. To ensure that inductees actually engaged with the content, a short quiz tested their knowledge at the end of each Chapter, and their progress against other new staff members was tracked on a leaderboard.",
     "slides": [
       {
         "id": 0,
         "vimeo": {
-          "videoid":"182535532",
+          "videoid":"182693490",
           "userid": "stephendbuchanan"
-          }
+        }
+      }
+    ]
+  },
+
+  {
+    "title": "Beef Easy",
+    "subtitle": "Recipe App",
+    "img": "assets/images/work/beef-easy-app-1.jpg",
+    "description": "A local beef supplier needed to connect more with consumers. We created a new brand for them, 'Beef Easy', and a mobile app that made cooking beef a little less intimidating for the novice.",
+    "slides": [
+      {
+        "id": 0,
+        "img": "assets/images/work/beef-easy-app-1.jpg"
+      },
+      {
+        "id": 1,
+        "img": "assets/images/work/beef-easy-app-2.jpg"
       },
       {
         "id": 2,
-        "img": "assets/images/work/pixels-venue.jpg"
+        "img": "assets/images/work/beef-easy-website.jpg"
       }
-    ]
+    ],
+    "detailsLink": "http://www.beefeasy.com"
   }
+
+
+
 
 
 ]
