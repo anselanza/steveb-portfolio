@@ -20,6 +20,7 @@
      $http.get("app/data/work.json").then(function(json) {
        $log.debug(json);
        $scope.workItems = json.data;
+       $scope.doneLoading = true;
      });
 
      $scope.open = function(selectedItem) {

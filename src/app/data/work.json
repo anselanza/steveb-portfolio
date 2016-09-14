@@ -123,5 +123,29 @@
         "img": "assets/images/work/flora-monitor.jpg"
       }
     ]
+  },
+
+  {
+    "title": "Street Choir @ FutureSounds",
+    "subtitle": "Hackathon Installation",
+    "img": "assets/images/work/future-sounds-hero.jpg",
+    "description": "An installation created for the FutureSounds workshop facilitated by The Constitute (based in Berlin). Arduino-connected sensors turned the mic on when someone approached, and a Leap Motion allowed the effects on the voice loop to be controlled using hand-tracking.",
+    "slides": [
+      {
+        "id": 0,
+        "vimeo": {
+          "videoid":"182683521",
+          "userid": "stephendbuchanan"
+          }
+      },
+      {
+        "id": 1,
+        "img": "assets/images/work/future-sounds-hero.jpg"
+      }
+    ],
+    "detailsLink": "http://fakugesi.co.za/event/future-sounds-workshop-constitute/"
   }
+
+
+
 ]
