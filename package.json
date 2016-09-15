@@ -1,7 +1,9 @@
 {
   "name": "steveB",
   "version": "0.0.0",
-  "dependencies": {},
+  "dependencies": {
+    "gulp-debug": "^2.1.2"
+  },
   "scripts": {
     "test": "gulp test"
   },
