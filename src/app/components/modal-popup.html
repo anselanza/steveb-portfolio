@@ -15,6 +15,8 @@
      <iframe ng-if="slide.vimeo" ng-src="{{$ctrl.trustSrc('https://player.vimeo.com/video/'+slide.vimeo.videoid+'?autoplay=1&title=0&byline=0&portrait=0')}}" width="600" height="338" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
      <!-- <p><a ng-href="https://vimeo.com/{{slide.vimeo.videoid}}">BMW Tunnel Installation</a> from <a href="https://vimeo.com/user5936605">Mann Made Media</a> on <a href="https://vimeo.com">Vimeo</a>.</p> -->
 
+     <iframe ng-if="slide.youtube" width="600" height="338" ng-src="{{$ctrl.trustSrc('https://www.youtube.com/embed/'+slide.youtube)}}" frameborder="0" allowfullscreen></iframe>
+
    </div>
 
   </div>

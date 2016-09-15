@@ -2,7 +2,7 @@
   {
     "title": "BMW Tunnel",
     "subtitle": "Event Installation",
-    "img": "assets/images/work/bmw-tunnel-view.jpg",
+    "img": "assets/images/work-thumbnails/tunnel.jpg",
     "description": "An audiovisual installation that recreated the visceral experience of walking down a tunnel alive with the sounds of anticipation, and then running into a packed stadium that explodes with a panorama of passionate supporters. Combined MAX/MSP for audio, Arduino for real camera flashes and openFrameworks for live animation.",
     "slides": [
       {
@@ -32,15 +32,22 @@
   {
     "title": "Pandora",
     "subtitle": "Event Installation",
-    "img": "assets/images/work/pandora-hero.jpg",
+    "img": "assets/images/work-thumbnails/pandora.jpg",
     "description": "We created bespoke interactive animation scenes for the launch of the Pandora jewellery ranges. Kinect sensor for motion tracking and Processing for generative graphics.",
     "slides": [
       {
         "id": 0,
-        "img": "assets/images/work/pandora-wide.jpg"
+        "vimeo": {
+          "videoid": "182828826",
+          "userid": "stephendbuchanan"
+        }
       },
       {
         "id": 1,
+        "img": "assets/images/work/pandora-wide.jpg"
+      },
+      {
+        "id": 2,
         "img": "assets/images/work/pandora-hero.jpg"
       }
     ]
@@ -74,7 +81,7 @@
   {
     "title": "Virtual Dealership",
     "subtitle": "Permanent Installation",
-    "img": "assets/images/work/virtual-dealership-wonderboom.jpg",
+    "img": "assets/images/work-thumbnails/vd.jpg",
     "description":"A bespoke Virtual Dealership experience created for Bidvest Automotive - featuring Augmented Reality, multi-screen sychronisation, 3D graphics and gesture-controlled interfaces to take dealerships into the future.",
     "slides": [
       {
@@ -149,7 +156,7 @@
   {
     "title": "Pixels of Purpose",
     "subtitle": "Event Installation",
-    "img": "assets/images/work/pixels-venue.jpg",
+    "img": "assets/images/work-thumbnails/pixels.jpg",
     "description": "For a Singularity University 'custom programme' event, we created a suitably high-tech arrival/registration experience. A Kinect depth camera image created a realtime stylised silhouette on screen, and AR tag recognition was used to match the delegate's details to load profile information.",
     "slides": [
       {
@@ -170,7 +177,7 @@
   {
     "title": "Blueville",
     "subtitle": "Corporate Staff Mobile Game",
-    "img": "assets/images/work/blueville-room.png",
+    "img": "assets/images/work-thumbnails/blueville.png",
     "description": "A local bank needed to communicate some key messages about customer service to its employees. Instead of an email campaign, we turned the whole thing into a mobile campaign. Amazingly, we got it to work for 3 platforms: Android, iOS and Blackberry OS 7 (which was very popular at the time).",
     "slides": [
       {
@@ -190,7 +197,7 @@
   {
     "title": "BMW Induction App",
     "subtitle": "App + Multiplayer Game",
-    "img": "assets/images/work/start-drive.png",
+    "img": "assets/images/work-thumbnails/induction-app.png",
     "description": "We turned BMW South Africa's staff induction process into a gamified mobile app. To ensure that inductees actually engaged with the content, a short quiz tested their knowledge at the end of each Chapter, and their progress against other new staff members was tracked on a leaderboard.",
     "slides": [
       {
@@ -206,7 +213,7 @@
   {
     "title": "Beef Easy",
     "subtitle": "Recipe App",
-    "img": "assets/images/work/beef-easy-app-1.jpg",
+    "img": "assets/images/work-thumbnails/beefeasy.jpg",
     "description": "A local beef supplier needed to connect more with consumers. We created a new brand for them, 'Beef Easy', and a mobile app that made cooking beef a little less intimidating for the novice.",
     "slides": [
       {
@@ -228,7 +235,7 @@
   {
     "title": "Harnessing the Hackers",
     "subtitle": "Conference Workshop",
-    "img": "assets/images/work/ha-talk-2.jpg",
+    "img": "assets/images/work-thumbnails/ha-talk.jpg",
     "description": "I presented a very well-attended workshop in the main auditorium for the Hello Ambassador 2016 Creative Festival, a conference for South African creatives and entrepreneurs. The audience loved getting involved - playing music with a Makey Makey and turning a Thesaurus API into live digital art.",
     "slides": [
       {
@@ -257,9 +264,9 @@
 
   {
     "title": "Magnesium Eventing Technology",
-    "subtitle": "Product Development",
-    "img": "assets/images/work/magnesium-website-1.jpg",
-    "description": "I co-founded an offshoot of our Interactive Design department - a brand called Magnesium which specialises in technology products for the Eventing industry. Our flagship product is a cloud-based Event App which greatly simplifies event management, networking and communications.",
+    "subtitle": "Software Product",
+    "img": "assets/images/work-thumbnails/mgwebsite.jpg",
+    "description": "I co-founded an offshoot of our Interactive Design department - a brand called Magnesium which specialises in technology products for the Eventing industry. Our flagship product is a cloud-based Event App which greatly simplifies event management, networking and communications. Built with AngularJS, NodeJS (Strongloop Loopback) and MongoDB.",
     "slides": [
       {
         "id": 0,
@@ -267,17 +274,66 @@
       },
       {
         "id": 1,
-        "img": "assets/images/work/magnesium-website-2.jpg"
+        "youtube": "nypzoDK643c"
       },
       {
         "id": 2,
-        "img": "assets/images/work/magevent-phone.jpg"
+        "img": "assets/images/work/magnesium-website-2.jpg"
       },
       {
         "id": 3,
+        "img": "assets/images/work/magevent-phone.jpg"
+      },
+      {
+        "id": 4,
         "img": "assets/images/work/magevent-ru-su.jpg"
       }
     ]
+  },
+
+  {
+    "title": "Video Hop",
+    "subtitle": "Hardware/Software Product",
+    "img": "assets/images/work/case-shot.jpg",
+    "description": "I created a smart Wifi box which combines a captive portal as well as a powerful media server. Mobile data is expensive in South Africa, so this device allows rich content to be synchronised once and then streamed for free from the Wifi box itself. The 3D-printed case design is also my own. Uses Banana Pi, Debian Linux, FreeRADIUS, RadiusDesk and CoovaChilli.",
+    "slides": [
+      {
+        "id": 0,
+        "youtube": "UanTp5SBJZY"
+      },
+      {
+        "id": 1,
+        "img": "assets/images/work/case-shot.jpg"
+      },
+      {
+        "id": 2,
+        "vimeo": {
+          "videoid": "182538944",
+          "userid": "stephendbuchanan"
+        }
+      },
+      {
+        "id": 3,
+        "img": "assets/images/work/how-it-works.jpg"
+      }
+    ]
+  },
+
+  {
+    "title": "NodeJS Leap Motion MIDI",
+    "subtitle": "Open Source / Personal Project",
+    "img": "assets/images/work/leap-midi-frame.jpg",
+    "description": "I created a smart Wifi box which combines a captive portal as well as a powerful media server. Mobile data is expensive in South Africa, so this device allows rich content to be synchronised once and then streamed for free from the Wifi box itself. The 3D-printed case design is also my own. Uses Banana Pi, Debian Linux, FreeRADIUS, RadiusDesk and CoovaChilli.",
+    "slides": [
+      {
+        "id": 0,
+        "vimeo": {
+          "videoid": "182820680",
+          "userid": "stephendbuchanan"
+        }
+      }
+    ],
+    "detailsLink": "https://github.com/anselanza/Node-Leap-MIDI"
   }
 
 
