@@ -3,6 +3,9 @@ angular.module('kreoGulp').controller('ModalInstanceCtrl', function ($uibModalIn
   $ctrl.item = item;
 
   console.log('item for this modal:', $ctrl.item);
+  var fakePath ='/'+$ctrl.item.title.replace(/ /g, '-');
+  console.log('fakePath for analytics pagevew:', fakePath);
+  ga('send', 'pageview', fakePath);
 
   $ctrl.ok = function () {
     $uibModalInstance.close();
