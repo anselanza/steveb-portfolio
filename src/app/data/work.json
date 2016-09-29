@@ -323,7 +323,7 @@
     "title": "NodeJS Leap Motion MIDI",
     "subtitle": "Open Source / Personal Project",
     "img": "assets/images/work-thumbnails/leap-midi-frame.jpg",
-    "description": "I created a smart Wifi box which combines a captive portal as well as a powerful media server. Mobile data is expensive in South Africa, so this device allows rich content to be synchronised once and then streamed for free from the Wifi box itself. The 3D-printed case design is also my own. Uses Banana Pi, Debian Linux, FreeRADIUS, RadiusDesk and CoovaChilli.",
+    "description": "This nifty little server I made turns your Leap Motion controller into a MIDI instrument or controller. ",
     "slides": [
       {
         "id": 0,
